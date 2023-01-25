@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* banner section styles */
+
+.banner-section {
+  background: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 800px;
+  text-align: right;
+  color: #ffffff;
+}
+.banner-content {
+  padding: 215px 230px 160px 860px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+}
+.banner-content p {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #005fac;
+  padding: 20px 25px;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* main section styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
