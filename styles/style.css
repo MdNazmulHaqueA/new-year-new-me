@@ -34,6 +34,7 @@ body {
   margin-bottom: 32px;
 }
 .btn-primary {
+  background: #ffffff;
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
@@ -41,6 +42,7 @@ body {
   padding: 20px 25px;
   border: 0;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* main section styles */
@@ -80,4 +82,104 @@ main {
 
 .failures p > i {
   color: #16d887;
+}
+
+/* plan section styles */
+
+.plans-section .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plans {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 130px;
+}
+.plan-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #151414;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.plan-description {
+  color: #737272;
+}
+
+/* Call to action styles */
+.call-to-action {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 95, 172, 0.9),
+      rgba(0, 95, 172, 0.1)
+    ),
+    url(../images/watch.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 130px;
+  padding: 59px 617px 59px 64px;
+}
+
+.call-to-action-title {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  margin-bottom: 24px;
+}
+
+/* footer styles */
+.footer-section {
+  background-color: #151414;
+  color: #ffffff;
+  padding: 130px 230px;
+  display: flex;
+  gap: 230px;
+  text-align: left;
+}
+
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+.footer-section p {
+  margin-bottom: 16px;
+}
+
+.footer-section .social-links img {
+  margin-top: 16px;
+  margin-right: 8px;
+}
+
+.footer-description {
+  margin-bottom: 24px;
+}
+
+.subscription-title {
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+.subscription input {
+  background-color: #151414;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  padding: 10px 15px;
+}
+
+.btn-subscribe {
+  /* #005FAC */
+  background: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  padding: 20px 25px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
 }
