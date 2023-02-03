@@ -17,9 +17,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color: #ffffff;
   height: 800px;
   text-align: right;
-  color: #ffffff;
 }
 .banner-content {
   padding: 215px 230px 160px 860px;
@@ -35,41 +35,90 @@ body {
 }
 .btn-primary {
   background: #ffffff;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-  color: #005fac;
-  padding: 20px 25px;
   border: 0;
   border-radius: 5px;
+  color: #005fac;
   cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 20px 25px;
+}
+.btn-primary:hover {
+  background: #16d887;
+  color: #ffffff;
 }
 
 /* main section styles */
+
 main {
   max-width: 1140px;
   margin: 0 auto;
 }
-/* list of failures */
-.section-title {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
-  color: #151414;
+
+/* About me section styles */
+
+.about-me-section {
+  display: flex;
+  gap: 100px;
+  margin-top: 130px;
 }
-.list-of-failures {
+.about-me-section img {
+  width: 500px;
+}
+.name {
+  color: #005fac;
+  font-size: 50px;
+  font-weight: 700;
+}
+.about-title {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.about-description p {
+  margin-bottom: 24px;
+}
+.btn-secondary {
+  background: #005fac;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 20px 25px;
+}
+
+.btn-secondary:hover {
+  background: #16d887;
+  color: #005fac;
+}
+
+/* failures section styles*/
+
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+}
+.failures-section {
+  color: #444343;
   display: flex;
   gap: 50px;
   align-items: center;
   margin-top: 130px;
   margin-bottom: 130px;
-  color: #444343;
 }
-.failures h2 {
+.list-of-failures h2 {
   padding-top: 100px;
   width: 60%;
 }
-.failures p {
+.list-of-failures p {
   width: 80%;
 }
 .failure-description {
@@ -79,8 +128,7 @@ main {
 .failure-item {
   margin-bottom: 8px;
 }
-
-.failures p > i {
+.list-of-failures p > i {
   color: #16d887;
 }
 
@@ -93,23 +141,24 @@ main {
 .plans {
   display: flex;
   justify-content: space-evenly;
-  text-align: center;
   margin-bottom: 130px;
+  text-align: center;
 }
-.plan-title {
+.plan .plan-title {
+  color: #151414;
   font-size: 30px;
   font-weight: 700;
   line-height: 35px;
-  color: #151414;
   margin-top: 24px;
   margin-bottom: 16px;
 }
-.plan-description {
+.plan .plan-description {
   color: #737272;
 }
 
-/* Call to action styles */
-.call-to-action {
+/* Call now section styles */
+
+.call-now-section {
   background: linear-gradient(
       90deg,
       rgba(0, 95, 172, 0.9),
@@ -121,8 +170,7 @@ main {
   margin-bottom: 130px;
   padding: 59px 617px 59px 64px;
 }
-
-.call-to-action-title {
+.call-now-section h2 {
   color: #ffffff;
   font-size: 40px;
   font-weight: 700;
@@ -131,34 +179,30 @@ main {
 }
 
 /* footer styles */
+
 .footer-section {
   background-color: #151414;
   color: #ffffff;
-  padding: 130px 230px;
   display: flex;
   gap: 230px;
+  padding: 130px 230px;
   text-align: left;
 }
-
 .footer-title {
   color: #f8f8f8;
   font-size: 45px;
   margin-bottom: 16px;
 }
-
 .footer-section p {
   margin-bottom: 16px;
 }
-
 .footer-section .social-links img {
   margin-top: 16px;
   margin-right: 8px;
 }
-
 .footer-description {
   margin-bottom: 24px;
 }
-
 .subscription-title {
   font-size: 25px;
   margin-bottom: 31px;
@@ -169,17 +213,4 @@ main {
   border-radius: 5px;
   margin-bottom: 16px;
   padding: 10px 15px;
-}
-
-.btn-subscribe {
-  /* #005FAC */
-  background: #005fac;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 23px;
-  color: #ffffff;
-  padding: 20px 25px;
-  border: 0;
-  border-radius: 5px;
-  cursor: pointer;
 }
